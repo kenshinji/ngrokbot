@@ -8,9 +8,15 @@
   },
   "author": "",
   "license": "ISC",
+  "bin": {
+    "ngbot": "./index.js"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.81.0",
     "telegraf": "^3.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
   }
 }
